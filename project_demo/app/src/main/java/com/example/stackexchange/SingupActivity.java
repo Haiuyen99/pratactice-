@@ -12,7 +12,7 @@ public class SingupActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_singup);
-        findViewById(R.id.singup).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.acctivitySingup_tvSingUp).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),Recylerview.class));

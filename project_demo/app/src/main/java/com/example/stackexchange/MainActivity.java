@@ -9,13 +9,13 @@ import android.view.View;
 import android.widget.RelativeLayout;
 
 public class MainActivity extends AppCompatActivity {
-         RelativeLayout rellay1 ,rellay2;
+         RelativeLayout rl_1 ,rl_2;
          Handler handler= new Handler();
          Runnable runnable = new Runnable() {
              @Override
              public void run() {
-              rellay1.setVisibility(View.VISIBLE);
-              rellay2.setVisibility(View.VISIBLE);
+              rl_1.setVisibility(View.VISIBLE);
+              rl_2.setVisibility(View.VISIBLE);
              }
          };
     @Override
@@ -23,11 +23,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        rellay1 = (RelativeLayout) findViewById(R.id.rellay1);
-        rellay2 = (RelativeLayout) findViewById(R.id.relllay2);
+        rl_1 = (RelativeLayout) findViewById(R.id.rl_1);
+        rl_2 = (RelativeLayout) findViewById(R.id.rl_2);
         handler.postDelayed(runnable,2000 );
 
-        findViewById(R.id.textCreateAccount).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.activity_tsingup).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),SingupActivity.class));

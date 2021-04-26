@@ -15,13 +15,12 @@
         android:layout_marginTop="50dp">
 
         <RelativeLayout
-            android:id="@+id/rellay1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/imgview_logo">
 
             <TextView
-                android:id="@+id/tv_singup"
+                android:id="@+id/activitySingup_tvLogin"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -32,10 +31,10 @@
                 android:textSize="30sp" />
 
             <LinearLayout
-                android:id="@+id/display1"
+                android:id="@+id/ll_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/tv_singup"
+                android:layout_below="@+id/activitySingup_tvLogin"
                 android:layout_marginTop="20dp"
                 android:orientation="vertical">
 
@@ -145,10 +144,10 @@
 
             </LinearLayout>
             <Button
-                android:id="@+id/singup"
+                android:id="@+id/acctivitySingup_tvSingUp"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
-                android:layout_below="@id/display1"
+                android:layout_below="@id/ll_2"
                 android:background="@drawable/btn_bg"
                 android:text="Signup Now"
                 android:textAllCaps="false"

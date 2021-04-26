@@ -22,10 +22,10 @@ public class Recylerview extends AppCompatActivity {
         setContentView(R.layout.activity_recylerview);
         initData();
         initRecyclerView();
-        findViewById(R.id.RecyclerView).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.activityRecyclerView_tvReplace).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),Main_screen.class));
+                startActivity(new Intent(getApplicationContext(),FragmentDemoActivity.class));
             }
         });
     }

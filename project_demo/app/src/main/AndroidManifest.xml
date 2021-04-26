@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Recylerview"></activity>
+        <activity android:name=".FragmentDemoActivity"></activity>
+        <activity android:name=".Recylerview" />
         <activity android:name=".Main_screen" />
         <activity android:name=".SingupActivity" />
         <activity android:name=".MainActivity">
