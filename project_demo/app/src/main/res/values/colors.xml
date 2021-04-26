@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#23A7D8</color>
+    <color name="colorPrimaryDark">#23A7D8</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="grandStart">#19AABB</color>
+    <color name="grandStop">#23A7D8</color>
+    <color name="colorPrimaryLight">#e9f8f1</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBackround">#ebebeb</color>
+    <color name="colorTrendingStart">#00B09B</color>
+    <color name="colorTrendingEnd">#96C93D</color>
+    <color name="colorDivider">#D6D6D6</color>
+
+</resources>

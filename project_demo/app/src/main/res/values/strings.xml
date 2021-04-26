@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">StackExchange</string>
+    <string name="hello">hello</string>
+    <string name="john">john</string>
+    <string name="Search">search</string>
+    <string name="goals">goals</string>
+    <string name="finance">finance\"</string>
+    <string name="heath">heath</string>
+    <string name="house">house</string>
+    <string name="favorite">favorite</string>
+    <string name="text">text</string>
+</resources>
